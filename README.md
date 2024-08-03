@@ -9,7 +9,6 @@ Foodee is a health assistance application designed to provide detailed nutrition
 - **Food Search**: Search for calories and nutritional values in different foods.
 - **Nutritional Information**: Detailed nutritional values per 100 grams of food.
 - **Physical Activity Recommendations**: Suggestions on physical activities needed to burn off consumed calories.
-- **User Authentication**: Options for Google sign-up/sign-in and manual registration.
 - **Premium Features**: Exclusive nutritional information available for premium users.
 
 ## Technology Stack
