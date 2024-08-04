@@ -9,8 +9,5 @@
             "src": "/(.*)",
             "dest": "foodie/wsgi.py"
         }
-    ],
-    "rewrites": [
-    { "source": "/static/:path*", "destination": "/static/:path*" }
-  ]
+    ]
 }
