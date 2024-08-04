@@ -1,20 +1,20 @@
 {
     "version": 2,
-    "builds": [{
-        "src": "foodie/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
+    "builds": [
+        {
+            "src": "foodie/wsgi.py",
+            "use": "@vercel/python",
+            "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
         },
         {
             "src": "build_files.sh",
-            "use": "@vercel/static_build",
+            "use": "@vercel/static",
             "config": {
                 "distDir": "staticfiles_build"
             }
         }
     ],
     "routes": [
-
         {
             "src": "/static/(.*)",
             "dest": "/static/$1"
