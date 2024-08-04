@@ -2,7 +2,7 @@
 
 Foodee is a health assistance application designed to provide detailed nutritional information about various foods. This project includes a robust backend built with Django and a single-page application (SPA) frontend for seamless user interaction. Users can search for different foods to get their nutritional values and insights on how much physical activity is required to burn off certain nutrients.
 
-![Foodee](https://bitbucket.org/adityasinghchandel/nutrition-value/src/main/Foodee.png)
+![Foodee](https://github.com/aditya2082/Nutrition-Value/blob/main/Foodee.png)
 
 ## Features
 
